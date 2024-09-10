@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.container:first-child {
+    font-size: 50px;
+    color: dodgerblue;
+}
+
+.btn,
+.btn2 {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    background-color: green;
+    font-size: 30px;
+}
+
+.btn2 {
+    background-color: red;
+}
