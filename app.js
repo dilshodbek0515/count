@@ -24,6 +24,7 @@ function inc() {
 function dec() {
     if (off > 100) {
         off -= 100
+        audio.play()
     } else if (off > 10) {
         off -= 10
     } else if (off > 0) {
