@@ -29,6 +29,10 @@
     color: white;
     background-color: green;
     font-size: 30px;
+
+    &:hover {
+        opacity: .7;
+    }
 }
 
 .btn2 {
